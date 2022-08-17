@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primcol: #C59042;
+    --seccol: #1E2E3E;
+    --tetcol: #DBDBDB;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-style: normal;
+}
+
+header{
+    /* background-image: url(bentley.jpg);
+    background-position: center;
+    background-size: cover; */
+    padding-top: 20px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    font-size: clamp(2rem, 1.5vw, 3.5rem);
+    line-height:12px;
+
+}
+
+.nav-logo>span{
+    color: var(--primcol);
+    font-size: clamp(0.5rem, 0.5vw, 1rem);
+}
+
+.nav-menu{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-around;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.nav-link:hover{
+    border: 1px solid #C59042;
+    padding: 12px 15px;
+}
+
+.header-content-wrapper{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    font-size: clamp(3rem, 2vw, 7rem);
+}
