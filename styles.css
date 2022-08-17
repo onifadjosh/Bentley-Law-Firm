@@ -18,9 +18,9 @@ html{
 }
 
 header{
-    /* background-image: url(bentley.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0.4) 40% ), url(bentley.jpg);
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
     padding-top: 20px;
     height: 70vh;
     display: flex;
@@ -35,6 +35,7 @@ header{
 
 .nav-logo{
     font-size: clamp(2rem, 1.5vw, 3.5rem);
+    color: #FFFFFF;
     line-height:12px;
 
 }
@@ -54,28 +55,54 @@ header{
     list-style-type: none;
 }
 
+
 .nav-link{
     text-decoration: none;
+    padding: 12px 15px;
+    font-size: clamp(1rem, 0.9vw, 3rem);
+    color: #FFFFFF;
 }
 .nav-link:hover{
+    /* padding: 12px 15px; */
     border: 1px solid #C59042;
-    padding: 12px 15px;
 }
 
 .header-content-wrapper{
     display: flex;
-    flex-basis: 70%;
+    flex-basis: 80%;
     justify-content: center;
     align-items: center;
 }
 .header-content{
     display: flex;
     justify-content: center;
-    font-size: clamp(3rem, 2vw, 7rem);
+    font-size: clamp(3rem, 2.5vw, 7rem);
+    word-spacing: 3px;
+    color: #FFFFFF;
+
 }
 
 .header-scroll{
     display: flex;
+    flex-basis: 10%;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
+    font-size: clamp(1rem, 0.8vw, 3rem);
+    gap: 10px;
+}
+
+.section1-wrapper{
+    padding-top: 30px;
+
+}
+
+.section1-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap: 15px;
+    font-size: clamp(1.3rem, 0.9vw, 3rem);
+    text-align: center;
 }
