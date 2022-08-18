@@ -105,4 +105,35 @@ header{
     gap: 15px;
     font-size: clamp(1.3rem, 0.9vw, 3rem);
     text-align: center;
+    color: #4F4F4F;
+}
+
+.section1-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section1-heading{
+    font-size: clamp(2rem, 1.8vw, 5rem);
+    font-weight: 900;
+    color: var(--seccol);
+
+}
+
+.section1-image-wrapper{
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    justify-content: center;
+    position: relative;
+
+}
+
+.section1-image-wrapper>div{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 9%;
+    left: -17%;
 }
