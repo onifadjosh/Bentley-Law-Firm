@@ -91,9 +91,14 @@ header{
     font-size: clamp(1rem, 0.8vw, 3rem);
     gap: 10px;
 }
+.section-1{
+    height: 70vh;
+    position: relative;
+}
 
 .section1-wrapper{
     padding-top: 30px;
+    
 
 }
 
@@ -113,12 +118,16 @@ header{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    position: absolute;
+    right: 30%;
+    top: 50%;
 }
 
 .section1-heading{
-    font-size: clamp(2rem, 1.8vw, 5rem);
+    font-size: clamp(2.5rem, 2vw, 5rem);
     font-weight: 900;
     color: var(--seccol);
+    padding-bottom: 50px;
 
 }
 
