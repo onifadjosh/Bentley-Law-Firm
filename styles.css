@@ -375,3 +375,20 @@ header{
     gap: 20px;
     height: 100%;
 }
+
+.section6{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form>div{
+    display: flex;
+    /* flex-direction: column; */
+}
