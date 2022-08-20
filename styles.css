@@ -392,3 +392,61 @@ header{
     display: flex;
     /* flex-direction: column; */
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E2E3E;
+    height: 50vh;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.footer-content{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.firm-info>h2, .firm-location>h2{
+    color: #C59042;
+    font-size: clamp(1.5rem, 1.2vw, 2rem);
+    padding-bottom: 10px;
+}
+
+.firm-info>p, .firm-location>p{
+    color: #FFFFFF;
+    font-size: clamp(1rem, 0.8vw, 1.8rem);
+    line-height: 15px;
+    font-weight: 200;
+}
+
+.company-link{
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+}
+.company-link>a{
+    text-decoration: none;
+    color: var(--tetcol);
+    font-size: clamp(1rem, 0.8vw, 1.8rem);
+}
+
+.company-link>a:hover{
+    color: var(--primcol);
+
+}
+
+.copywrite{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
