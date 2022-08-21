@@ -386,6 +386,7 @@ header{
 .section6-heading{
     text-align: center;
     padding-bottom: 20px;
+    font-size: clamp(1.5rem, 1.5vw, 5rem);
 }
 
 .form{
@@ -409,17 +410,48 @@ header{
 
 .form-input1>input, .form-input2>input{
     border: none;
+    border-bottom: 1px solid var(--tetcol);
+    padding-top: 10px;
+    width: 300px;
+}
+
+.form-input1>input::placeholder, .form-input2>input::placeholder{
+    color: #3C3C3C;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.additional-info{
+    border: none;
+    border-bottom: 1px solid var(--tetcol);
+}
+.additional-info::placeholder{
+    color: #3C3C3C;
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp();
 }
 
 .form-terms{
     display: flex;
+    gap: 10px;
     
 }
 
-.submit-button{
+.submit-button-wrapper{
     display:flex ;
     justify-content: center;
     align-items: center;
+}
+.submit-button{
+    border: none;
+    color: #FFFFFF;
+    background-color: var(--primcol);
+    padding: 13px 14px;
+
+}
+.submit-button:hover{
+    color: var(--primcol);
+    background-color: #FFFFFF;
+    border: 1px solid var(--primcol);
 }
 
 footer{
@@ -477,5 +509,13 @@ footer{
 .copywrite{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #FFFFFF;
+    width: 100%;
+    gap: 20px;
+}
+
+.company-socials{
+    display: flex;
+    gap: 20px;
 }
