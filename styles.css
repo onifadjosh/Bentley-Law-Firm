@@ -383,14 +383,43 @@ header{
     align-items: center;
 }
 
+.section6-heading{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .form{
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
-.form>div{
+.form>.form-input-wrapper{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
     /* flex-direction: column; */
+}
+.form-input1, .form-input2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-input1>input, .form-input2>input{
+    border: none;
+}
+
+.form-terms{
+    display: flex;
+    
+}
+
+.submit-button{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
